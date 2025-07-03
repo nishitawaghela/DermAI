@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Load model
-model = tf.keras.models.load_model("best_effnet_model.h5")
+model = tf.keras.models.load_model("best_model.h5")
 
 # Label mapping
 class_indices = {
