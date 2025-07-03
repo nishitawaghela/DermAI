@@ -1,19 +1,18 @@
+# DermAI 
 
-# DermAI: Skin Disease Classifier 🧴
+DermAI is a deep learning-powered skin disease classifier built using TensorFlow and Streamlit. Upload a skin image, and it will predict the condition with Grad-CAM visual explanation.
 
-A web-based CNN model that detects skin disease using images.
-Built with EfficientNetB0 and Grad-CAM.
+## Features
 
-## How to Use
-- Upload a skin image.
-- Get prediction + confidence.
-- See Grad-CAM heatmap for explanation.
+- Trained on HAM10000 dataset
+- EfficientNetB0 architecture
+- Handles 7 skin diseases
+- Streamlit Web UI
+- Grad-CAM heatmap for model explainability
 
-## Demo
-Deployed via Streamlit Cloud 🚀
+## Installation
 
-## Tech Stack
-- TensorFlow / Keras
-- EfficientNetB0
-- Streamlit
-- Grad-CAM for explainability
+```bash
+pip install -r requirements.txt
+
+

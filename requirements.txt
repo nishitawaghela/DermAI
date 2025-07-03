@@ -1,7 +1,7 @@
-
 streamlit
-tensorflow
+tensorflow==2.11.0
+Pillow
 numpy
-opencv-python
-pillow
 matplotlib
+opencv-python
+
