@@ -6,7 +6,7 @@ from PIL import Image
 from utils import get_prediction_with_gradcam
 
 st.set_page_config(page_title="DermAI", layout="centered")
-st.title("🧴 DermAI: Skin Disease Classifier")
+st.title("DermAI: Skin Disease Classifier")
 
 model = load_model("best_model.h5")
 class_labels = ['akiec', 'bcc', 'bkl', 'df', 'mel', 'nv', 'vasc']
