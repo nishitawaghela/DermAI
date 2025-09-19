@@ -36,7 +36,7 @@ Dataset source: [Kaggle – HAM10000](https://www.kaggle.com/kmader/skin-cancer-
   - OpenCV and PIL (image preprocessing)
   - NumPy, Pandas (data handling)
   - Matplotlib, Seaborn (visualization)  
-- **Web Application**: Streamlit for deployment  
+
 
 ---
 
